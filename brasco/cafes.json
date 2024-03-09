@@ -1,0 +1,76 @@
+[
+    {
+      "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+      "name": "The Daily Grind",
+      "description": "A cozy cafe with a rustic ambiance, serving freshly brewed coffee, artisanal pastries, and light breakfast and lunch options.",
+      "owners": [
+        {"name": "Emily Johnson", "userId": "eJohnson123"},
+        {"name": "Michael Smith", "userId": "mSmith456"}
+      ],
+      "menu_items": [
+        {"item": "Espresso", "amount": 2.50, "currency": "USD"},
+        {"item": "Cappuccino", "amount": 3.50, "currency": "USD"},
+        {"item": "Croissant", "amount": 2.00, "currency": "USD"},
+        {"item": "Avocado Toast", "amount": 8.00, "currency": "USD"}
+      ],
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "location": {
+        "address": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zipcode": "12345"
+      }
+    },
+    {
+      "id": "2q3w4e5r-6t7y-8u9i-0o1p-2a3s4d5f6g7h",
+      "name": "Sunny Side Cafe",
+      "description": "A bright and cheerful cafe specializing in organic, locally-sourced breakfast and brunch options.",
+      "owners": [
+        {"name": "Sarah Thompson", "userId": "sThompson789"}
+      ],
+      "menu_items": [
+        {"item": "Pancakes", "amount": 9.00, "currency": "USD"},
+        {"item": "Eggs Benedict", "amount": 11.50, "currency": "USD"},
+        {"item": "Acai Bowl", "amount": 10.00, "currency": "USD"},
+        {"item": "Cold Brew", "amount": 4.00, "currency": "USD"}
+      ],
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "location": {
+        "address": "456 Oak St",
+        "city": "Smallville",
+        "state": "NY",
+        "zipcode": "54321"
+      }
+    },
+    {
+      "id": "3z4x5c6v-7b8n-9m0q-1w2e-3r4t5y6u7i8o",
+      "name": "Urban Brew",
+      "description": "A trendy urban cafe offering a variety of specialty coffee drinks, gourmet sandwiches, and salads.",
+      "owners": [
+        {"name": "David Lee", "userId": "dLee101"},
+        {"name": "Jennifer Rodriguez", "userId": "jRod456"}
+      ],
+      "menu_items": [
+        {"item": "Flat White", "amount": 4.50, "currency": "USD"},
+        {"item": "Panini", "amount": 7.00, "currency": "USD"},
+        {"item": "Quinoa Salad", "amount": 9.50, "currency": "USD"},
+        {"item": "Matcha Latte", "amount": 5.00, "currency": "USD"}
+      ],
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "location": {
+        "address": "789 Elm St",
+        "city": "Metropolis",
+        "state": "IL",
+        "zipcode": "67890"
+      }
+    }
+]

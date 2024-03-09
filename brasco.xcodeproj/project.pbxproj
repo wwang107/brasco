@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267E24342B9B5A9300289E84 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E24332B9B5A9300289E84 /* MapView.swift */; };
+		267E24362B9B5B8C00289E84 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E24352B9B5B8C00289E84 /* CircleImage.swift */; };
+		2689EDE32B9B10A6008691E0 /* brascoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EDE22B9B10A6008691E0 /* brascoApp.swift */; };
+		2689EDE52B9B10A6008691E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EDE42B9B10A6008691E0 /* ContentView.swift */; };
+		2689EDE72B9B10A6008691E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2689EDE62B9B10A6008691E0 /* Assets.xcassets */; };
+		2689EDEA2B9B10A6008691E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2689EDE92B9B10A6008691E0 /* Preview Assets.xcassets */; };
+		2689EDF42B9B10A6008691E0 /* brascoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EDF32B9B10A6008691E0 /* brascoTests.swift */; };
+		2689EDFE2B9B10A6008691E0 /* brascoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EDFD2B9B10A6008691E0 /* brascoUITests.swift */; };
+		2689EE002B9B10A6008691E0 /* brascoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EDFF2B9B10A6008691E0 /* brascoUITestsLaunchTests.swift */; };
+		2689EE0D2B9B10D9008691E0 /* cafes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2689EE0C2B9B10D9008691E0 /* cafes.json */; };
+		2689EE112B9B1853008691E0 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EE102B9B1853008691E0 /* Cafe.swift */; };
+		2689EE132B9B3B7F008691E0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EE122B9B3B7F008691E0 /* ModelData.swift */; };
+		2689EE152B9B4053008691E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689EE142B9B4053008691E0 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2689EDF02B9B10A6008691E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2689EDD72B9B10A6008691E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2689EDDE2B9B10A6008691E0;
+			remoteInfo = brasco;
+		};
+		2689EDFA2B9B10A6008691E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2689EDD72B9B10A6008691E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2689EDDE2B9B10A6008691E0;
+			remoteInfo = brasco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		267E24332B9B5A9300289E84 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		267E24352B9B5B8C00289E84 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2689EDDF2B9B10A6008691E0 /* brasco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brasco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2689EDE22B9B10A6008691E0 /* brascoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brascoApp.swift; sourceTree = "<group>"; };
+		2689EDE42B9B10A6008691E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2689EDE62B9B10A6008691E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2689EDE92B9B10A6008691E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2689EDEF2B9B10A6008691E0 /* brascoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brascoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2689EDF32B9B10A6008691E0 /* brascoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brascoTests.swift; sourceTree = "<group>"; };
+		2689EDF92B9B10A6008691E0 /* brascoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brascoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2689EDFD2B9B10A6008691E0 /* brascoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brascoUITests.swift; sourceTree = "<group>"; };
+		2689EDFF2B9B10A6008691E0 /* brascoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brascoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2689EE0C2B9B10D9008691E0 /* cafes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cafes.json; sourceTree = "<group>"; };
+		2689EE102B9B1853008691E0 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		2689EE122B9B3B7F008691E0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		2689EE142B9B4053008691E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2689EDDC2B9B10A6008691E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDEC2B9B10A6008691E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDF62B9B10A6008691E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2689EDD62B9B10A6008691E0 = {
+			isa = PBXGroup;
+			children = (
+				2689EDE12B9B10A6008691E0 /* brasco */,
+				2689EDF22B9B10A6008691E0 /* brascoTests */,
+				2689EDFC2B9B10A6008691E0 /* brascoUITests */,
+				2689EDE02B9B10A6008691E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2689EDE02B9B10A6008691E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2689EDDF2B9B10A6008691E0 /* brasco.app */,
+				2689EDEF2B9B10A6008691E0 /* brascoTests.xctest */,
+				2689EDF92B9B10A6008691E0 /* brascoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2689EDE12B9B10A6008691E0 /* brasco */ = {
+			isa = PBXGroup;
+			children = (
+				2689EE0F2B9B16E1008691E0 /* views */,
+				2689EE0E2B9B16CA008691E0 /* models */,
+				2689EDE22B9B10A6008691E0 /* brascoApp.swift */,
+				2689EDE42B9B10A6008691E0 /* ContentView.swift */,
+				2689EDE62B9B10A6008691E0 /* Assets.xcassets */,
+				2689EDE82B9B10A6008691E0 /* Preview Content */,
+				2689EE0C2B9B10D9008691E0 /* cafes.json */,
+				2689EE122B9B3B7F008691E0 /* ModelData.swift */,
+			);
+			path = brasco;
+			sourceTree = "<group>";
+		};
+		2689EDE82B9B10A6008691E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2689EDE92B9B10A6008691E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2689EDF22B9B10A6008691E0 /* brascoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2689EDF32B9B10A6008691E0 /* brascoTests.swift */,
+			);
+			path = brascoTests;
+			sourceTree = "<group>";
+		};
+		2689EDFC2B9B10A6008691E0 /* brascoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2689EDFD2B9B10A6008691E0 /* brascoUITests.swift */,
+				2689EDFF2B9B10A6008691E0 /* brascoUITestsLaunchTests.swift */,
+			);
+			path = brascoUITests;
+			sourceTree = "<group>";
+		};
+		2689EE0E2B9B16CA008691E0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2689EE102B9B1853008691E0 /* Cafe.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2689EE0F2B9B16E1008691E0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2689EE142B9B4053008691E0 /* DetailView.swift */,
+				267E24332B9B5A9300289E84 /* MapView.swift */,
+				267E24352B9B5B8C00289E84 /* CircleImage.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2689EDDE2B9B10A6008691E0 /* brasco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689EE032B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brasco" */;
+			buildPhases = (
+				2689EDDB2B9B10A6008691E0 /* Sources */,
+				2689EDDC2B9B10A6008691E0 /* Frameworks */,
+				2689EDDD2B9B10A6008691E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brasco;
+			productName = brasco;
+			productReference = 2689EDDF2B9B10A6008691E0 /* brasco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2689EDEE2B9B10A6008691E0 /* brascoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689EE062B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brascoTests" */;
+			buildPhases = (
+				2689EDEB2B9B10A6008691E0 /* Sources */,
+				2689EDEC2B9B10A6008691E0 /* Frameworks */,
+				2689EDED2B9B10A6008691E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2689EDF12B9B10A6008691E0 /* PBXTargetDependency */,
+			);
+			name = brascoTests;
+			productName = brascoTests;
+			productReference = 2689EDEF2B9B10A6008691E0 /* brascoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2689EDF82B9B10A6008691E0 /* brascoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689EE092B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brascoUITests" */;
+			buildPhases = (
+				2689EDF52B9B10A6008691E0 /* Sources */,
+				2689EDF62B9B10A6008691E0 /* Frameworks */,
+				2689EDF72B9B10A6008691E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2689EDFB2B9B10A6008691E0 /* PBXTargetDependency */,
+			);
+			name = brascoUITests;
+			productName = brascoUITests;
+			productReference = 2689EDF92B9B10A6008691E0 /* brascoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2689EDD72B9B10A6008691E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2689EDDE2B9B10A6008691E0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2689EDEE2B9B10A6008691E0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2689EDDE2B9B10A6008691E0;
+					};
+					2689EDF82B9B10A6008691E0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2689EDDE2B9B10A6008691E0;
+					};
+				};
+			};
+			buildConfigurationList = 2689EDDA2B9B10A6008691E0 /* Build configuration list for PBXProject "brasco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2689EDD62B9B10A6008691E0;
+			productRefGroup = 2689EDE02B9B10A6008691E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2689EDDE2B9B10A6008691E0 /* brasco */,
+				2689EDEE2B9B10A6008691E0 /* brascoTests */,
+				2689EDF82B9B10A6008691E0 /* brascoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2689EDDD2B9B10A6008691E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2689EDEA2B9B10A6008691E0 /* Preview Assets.xcassets in Resources */,
+				2689EDE72B9B10A6008691E0 /* Assets.xcassets in Resources */,
+				2689EE0D2B9B10D9008691E0 /* cafes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDED2B9B10A6008691E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDF72B9B10A6008691E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2689EDDB2B9B10A6008691E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2689EDE52B9B10A6008691E0 /* ContentView.swift in Sources */,
+				267E24342B9B5A9300289E84 /* MapView.swift in Sources */,
+				2689EE132B9B3B7F008691E0 /* ModelData.swift in Sources */,
+				267E24362B9B5B8C00289E84 /* CircleImage.swift in Sources */,
+				2689EDE32B9B10A6008691E0 /* brascoApp.swift in Sources */,
+				2689EE112B9B1853008691E0 /* Cafe.swift in Sources */,
+				2689EE152B9B4053008691E0 /* DetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDEB2B9B10A6008691E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2689EDF42B9B10A6008691E0 /* brascoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2689EDF52B9B10A6008691E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2689EE002B9B10A6008691E0 /* brascoUITestsLaunchTests.swift in Sources */,
+				2689EDFE2B9B10A6008691E0 /* brascoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2689EDF12B9B10A6008691E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2689EDDE2B9B10A6008691E0 /* brasco */;
+			targetProxy = 2689EDF02B9B10A6008691E0 /* PBXContainerItemProxy */;
+		};
+		2689EDFB2B9B10A6008691E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2689EDDE2B9B10A6008691E0 /* brasco */;
+			targetProxy = 2689EDFA2B9B10A6008691E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2689EE012B9B10A6008691E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2689EE022B9B10A6008691E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2689EE042B9B10A6008691E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brasco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brasco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2689EE052B9B10A6008691E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brasco/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brasco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2689EE072B9B10A6008691E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brascoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brasco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brasco";
+			};
+			name = Debug;
+		};
+		2689EE082B9B10A6008691E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brascoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brasco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brasco";
+			};
+			name = Release;
+		};
+		2689EE0A2B9B10A6008691E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brascoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brasco;
+			};
+			name = Debug;
+		};
+		2689EE0B2B9B10A6008691E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ww.brascoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brasco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2689EDDA2B9B10A6008691E0 /* Build configuration list for PBXProject "brasco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689EE012B9B10A6008691E0 /* Debug */,
+				2689EE022B9B10A6008691E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2689EE032B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brasco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689EE042B9B10A6008691E0 /* Debug */,
+				2689EE052B9B10A6008691E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2689EE062B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brascoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689EE072B9B10A6008691E0 /* Debug */,
+				2689EE082B9B10A6008691E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2689EE092B9B10A6008691E0 /* Build configuration list for PBXNativeTarget "brascoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2689EE0A2B9B10A6008691E0 /* Debug */,
+				2689EE0B2B9B10A6008691E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2689EDD72B9B10A6008691E0 /* Project object */;
+}
